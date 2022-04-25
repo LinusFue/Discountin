@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
@@ -13,6 +14,9 @@ public class Start extends Application {
     public void start(Stage stage) throws IOException {
         BorderPane root = new BorderPane();
         Scene scene = new Scene(root, 50, 50);
+
+        stage.initStyle(StageStyle.TRANSPARENT);
+
         stage.setTitle("Discountin");
         stage.setScene(scene);
         stage.show();
