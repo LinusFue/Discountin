@@ -13,9 +13,9 @@ public class Start extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         BorderPane root = new BorderPane();
-        Scene scene = new Scene(root, 50, 50);
+        Scene scene = new Scene(root, 500, 500);
 
-        stage.initStyle(StageStyle.TRANSPARENT);
+        stage.initStyle(StageStyle.UNDECORATED);
 
         stage.setTitle("Discountin");
         stage.setScene(scene);
