@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class Start extends Application {
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage stage) {
         BorderPane root = new BorderPane();
         Scene scene = new Scene(root, 500, 500);
 
