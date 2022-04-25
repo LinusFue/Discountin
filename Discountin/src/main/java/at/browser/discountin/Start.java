@@ -15,7 +15,7 @@ public class Start extends Application {
         BorderPane root = new BorderPane();
         Scene scene = new Scene(root, 500, 500);
 
-        stage.initStyle(StageStyle.UNDECORATED);
+        stage.initStyle(StageStyle.UTILITY);
 
         stage.setTitle("Discountin");
         stage.setScene(scene);
