@@ -10,8 +10,10 @@ import javafx.stage.StageStyle;
 import java.io.IOException;
 
 public class Start extends Application {
+    private Stage stage;
     @Override
     public void start(Stage stage) {
+        this.stage = stage;
         BorderPane root = new BorderPane();
         Scene scene = new Scene(root, 500, 500);
 
@@ -22,6 +24,9 @@ public class Start extends Application {
         stage.show();
     }
 
+    public Stage getStage(){
+        return stage;
+    }
     public static void main(String[] args) {
         launch();
     }
