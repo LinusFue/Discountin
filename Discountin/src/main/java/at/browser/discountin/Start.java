@@ -13,7 +13,7 @@ public class Start extends Application {
     @Override
     public void start(Stage stage) {
         BorderPane root = new BorderPane();
-        Scene scene = new Scene(root, 50, 500);
+        Scene scene = new Scene(root, 500, 500);
 
         stage.initStyle(StageStyle.UNDECORATED);
 
